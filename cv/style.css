@@ -1,0 +1,56 @@
+/* Importing main font */
+@font-face {
+    font-family: 'FA Sysfont C';
+    src: url('sysfont.woff2') format('woff2'),
+         url('sysfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    font-family: 'FA Sysfont C';
+    font-size: 24px;
+    color: #0f0;
+    margin: 48px;
+    
+}
+
+h1 {
+    font-size: 96px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font-size: 48px;
+    margin: 0px;
+    padding-top: 4px;
+}
+
+.frame {
+    border: 1px solid #0f0;
+    width: 826px;
+    height: 1169px;
+    margin: 0 auto;
+    text-align: left;
+    color: #0f0;
+    padding-top: 0px;
+ 
+}
+
+.content {
+    margin: 48px;
+}
+
+.block {
+    border-bottom: 1px solid #0f0;
+    border-top: 1px solid #0f0;
+}
+
+.footer {
+    border-bottom: 1px solid #0f0;
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,225 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+    --primary-color: #F26625;
+    --background-color: #000;
+    --main-font: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--main-font);
+    color: var(--primary-color);
+}
+
+.meme {
+    display: block; /* Changed from 'flex' to 'block' to make it a block-level element */
+    margin: 192px auto 0; /* Adjusted margin to add space at the top of the image */
+    max-width: 512px;
+}
+
+.meme2 {
+    display: block; /* Changed from 'flex' to 'block' to make it a block-level element */
+    margin: 40px auto 0; /* Adjusted margin to add space at the top of the image */
+    max-width: 512px;
+}
+
+.navbar {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Changed from 'center' to 'space-between' to space out the logo and links */
+    padding: 0 20px; /* Adjusted padding to add space on the sides of the navbar */
+    height: 64px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    border: var(--primary-color) 2px solid;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Added to vertically align the logo image and text */
+}
+
+.navbar a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+    padding: 18px;
+}
+
+.links a {
+    padding: 0 16px; /* Moved padding from '.navbar a' to here to only apply padding to these links */
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 128px;
+}
+
+.rating button {
+    background-color: var(--background-color);
+    border: solid var(--primary-color) 2px;
+    cursor: pointer;
+    padding: 20px 24px;
+    font-size: 24px;
+    font-family: var(--main-font);
+    color: var(--primary-color);
+}
+
+.rating button:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+footer {
+    text-align: left;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    padding: 10px;
+}
+
+.toggle-switch {
+    display: flex;
+    justify-content: right;
+    background-color: #000;
+    border: #000000 2px solid;
+    margin-top: 96px;
+    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.file-upload {
+    display: flex;
+    padding: 10px;
+    background-color: #000;
+    color: #F26625;
+    justify-content: center; 
+    align-items: center;   
+    width: 512px;
+    height: 128px;
+    border: none;
+    margin-top: 256px;
+    font-size: 32px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.file-upload:hover {
+    background-color: #F26625;
+    color: #000;
+}
+
+.toggle-button {
+    color: #F26625;
+    background: #000;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.toggle-button:hover {
+    background-color: #F26625;
+    color: #000;
+}
+
+.toggle-button.active {
+    background-color: #F26625;
+    color: #000;
+}
+
+.credits {
+    justify-content: space-between;
+    border: #000000 2px solid;
+    font-size: 24px;
+    font-family: 'Press Start 2P', cursive;
+    margin-left:  auto;
+    margin-right:  auto;
+    margin-top:  48px;
+    width: 512px;
+}
+
+a {
+    color: #F26625; /* The orange color used in your other styles */
+}
+
+.login {
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    margin: 148px auto;
+    text-align: center;
+}
+
+.login input[type="text"], 
+.login input[type="password"] {
+    width: 100%;
+    padding: 12px 0;
+    margin-bottom: 10px;
+    background-color: #000;
+    color: #F26625;
+    border: 2px solid #000000;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+}
+
+.login-button,
+.signup-button,
+.forgot-button {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    color: #000;
+    background-color: #F26625;
+    cursor: pointer;
+    margin-top: 24px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+.login-button:hover,
+.signup-button:hover,
+.forgot-button:hover {
+    background-color: #000;
+    color: #F26625;
+    border: 2px solid #F26625;
+}
+
+.login p {
+    color: #F26625;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#error-message {
+    color: #F26625;
+    margin-top: 48px;
+    font-size: 16px;
+    text-align: left;
+}

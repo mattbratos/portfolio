@@ -1,0 +1,188 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Default Styles */
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h1, h2 {
+  text-shadow: 0px 0px 20px #ff00de;
+}
+
+/* ID Specific Styles */
+#player {
+  background: #000;
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 25px #ff00de;
+  margin: auto;
+  margin-top: 80px;
+  padding: 20px;
+  text-align: center;
+  width: 1200px;
+  display: flex;
+}
+
+#player-left {
+  width: 60%;
+}
+
+#player-right {
+  border-left: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  text-align: start;
+  width: 40%;
+}
+
+#song-info {
+  padding: 6px 0px;
+  text-align: start;
+}
+
+#vinyl {
+  height: 320px;
+  padding: 20px 0px;
+  width: 320px;
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+
+#time-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#tracklist {
+  list-style-type: none;
+  padding: 0;
+}
+
+#progress {
+  background: #ff00de;
+  cursor: pointer;
+  height: 10px;
+  margin: auto 0px;
+  width: 88%;
+}
+
+/* Class Specific Styles */
+.track-btn {
+  background: #000;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  padding: 14px;
+  text-align: start;
+  transition: all 0.5s;
+  width: 450px;
+}
+
+.track-btn:hover, .version:hover {
+  background: #ff00de;
+  color: #000;
+}
+
+.tracklist li:hover {
+  color: #ff00de;
+}
+
+.tracklist-container {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.controls-container {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.version {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 24px;
+  margin: 4px 2px;
+  padding: 24px 36px;
+  transition-duration: 0.4s;
+}
+
+.playing-indicator {
+  animation: pulse 1s infinite;
+  background-color: #ff00de;
+  border-radius: 50%;
+  display: none;
+  height: 10px;
+  width: 10px;
+}
+
+.active-version {
+  color: #ff00de;
+}
+
+.track-btn.playing {
+  color: #ff00de;  // For example, change the text color
+}
+
+/* Button Styles */
+button {
+  background: #000;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 0px 0px 20px #ff00de;
+  transition: all 0.5s ease;
+}
+
+#controls button {
+  font-size: 60px;
+  height: 100px;
+  width: 100px;
+}
+
+#controls button:hover {
+  background: #ff00de;
+  color: #000;
+}
+
+/* Range Input Styles */
+input[type=range] {
+  background: #f3f3f3;
+  -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  background: rgb(255, 255, 255);
+  height: 20px;
+  width: 10px;
+  -webkit-appearance: none;
+}
+
+/* Keyframes */
+@keyframes pulse {
+  0% {
+    opacity: 0.7;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="player">
+    <div id="player-left">
+      <h1>Taco Hemingway</h1>
+      <h2>Trójkat Warszawski</h2>
+      <div id="vinyl-container">
+        <img id="vinyl" src="vinyl.gif">
+      </div>
+      <audio id="audio" src=""></audio>
+      <div id="controls">
+        <div id="time-container">
+          <input type="range" id="progress" value="0">
+          <p id="time">0:00</p>
+        </div>
+        <div id="buttons-container">    
+          <button id="back" onclick="back()">⏮︎</button>
+          <button id="play" onclick="play()">⏵︎</button>
+          <button id="power" onclick="power()">⏻︎</button>
+          <button id="pause" onclick="pause()">⏸︎</button>
+          <button id="next" onclick="next()">⏭︎</button>
+        </div>
+      </div>
+    </div>
+    <div id="player-right">
+      <h2>Tracklista</h2>
+      <div class="tracklist-conteiner">
+        <button id="track1" class="track-btn" onclick="playTrack('01 Szlugi i kalafiory', 'track1')">01 Szlugi i kalafiory</button>
+        <button id="track2" class="track-btn" onclick="playTrack('02 Marsz, marsz', 'track2')">02 Marsz, marsz</button>
+        <button id="track3" class="track-btn" onclick="playTrack('03 Wszystko jedno', 'track3')">03 Wszystko jedno</button>
+        <button id="track4" class="track-btn" onclick="playTrack('04 Trójkąt', 'track4')">04 Trójkąt</button>
+        <button id="track5" class="track-btn" onclick="playTrack('05 (przerywnik)', 'track5')">05 (przerywnik)</button>
+        <button id="track6" class="track-btn" onclick="playTrack('06 Mięso', 'track6')">06 Mięso</button>
+        <button id="track7" class="track-btn" onclick="playTrack('07 900729', 'track7')">07 900729</button>
+      </div>          
+    </div>
+  </div>
+  <div class="controls-container">
+    <button class="version active-version" data-version="MP3" onclick="changeVersion('MP3')">MP3</button>
+    <button class="version" data-version="Vin" onclick="changeVersion('Vin')">Vinyl</button>
+    <button class="version" data-version="Tape" onclick="changeVersion('Tape')">Tape</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background: #000;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+}
+
+#player {
+  background: #000;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 25px #ff00de;
+}
+
+#song-info {
+    padding: 6px 0px;
+    text-align: start;
+}
+h1, h2 {
+  text-shadow: 0px 0px 20px #ff00de;
+}
+
+
+
+
+/* Add these to your existing CSS */
+
+  
+  #vinyl {
+    width: 320px;
+    height: 320px;
+    padding: 20px 0px;
+  }
+  
+#controls {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+  }
+
+#time-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    /* border: green 5px solid; */
+}
+  
+  #controls button {
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 0px 0px 20px #ff00de;
+    font-size: 60px;
+    transition: all 0.5s ease;
+    width: 100px;
+    height: 100px;
+  }
+  
+  #controls button:hover {
+    background: #ff00de;
+    color: #000;
+
+  }
+  
+
+  #buttons-container {
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 80px;;  */
+  }
+
+
+
+
+
+
+
+#player {
+    display: flex;
+    width: 1200px;
+    margin-top: 80px;
+  }
+  
+  #player-left {
+    width: 60%;
+  }
+  
+  #player-right {
+    width: 40%;
+    border-left: 2px solid #fff;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  
+  #tracklist {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #tracklist li {
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .tracklist li:hover {
+    color: #ff00de;
+  }
+  
+  .tracklist-conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: none;
+    /* border: 5px solid #ff00de; */
+    
+  }
+
+  .track-btn {
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    padding: 14px;
+    width: 450px;
+    text-align: start;
+  }
+
+  .track-btn:hover {
+    background: #ff00de;
+    color: #000;
+  }
+
+
+
+
+  #progress {
+    width: 88%;
+    cursor: pointer;
+    background: #ff00de;
+    height: 10px;  
+    margin: auto 0px;
+  }
+
+
+
+
+
+input[type=range] {
+    -webkit-appearance: none;
+    background: #f3f3f3;
+  }
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: rgb(255, 255, 255);
+    height: 20px;
+    width: 10px;
+    
+}
+
+  
+
+
+
+.controls-container {
+    border: #00e5ff 0px solid;
+    padding: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.version {
+    background: none;
+    border: none;
+    color: white;
+    padding: 24px 36px;
+    font-size: 24px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+
+  }
+  
+  .version:hover {
+    background-color: #e600e6;
+    color: white;
+  }
+
+
+
+  .playing-indicator {
+    display: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ff00de;
+    animation: pulse 1s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(0.95);
+      opacity: 0.7;
+    }
+    100% {
+      transform: scale(1.05);
+      opacity: 1;
+    }
+  }
+  
+  .track-btn {
+    /* other styles... */
+    transition: all 0.5s;  // Adjust this to suit your needs
+  }
+  
+  .track-btn.playing {
+    /* Add the styles you want to apply when a track is playing */
+    color: #ff00de;  // For example, change the text color
+  }
+  
+
+
+
+  .active-version {
+    /* Replace with your own styles */
+    color: #ff00de;
+    
+}

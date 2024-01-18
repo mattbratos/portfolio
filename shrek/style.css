@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+:root {
+    --main-font: 'VT323', monospace;
+    --main-color: #f0f;
+    --shadow-color: #000;
+    --main-margin: 12px;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, #891AF5, #6941F5, #577EF7, #5CBCF9, #75FBFD);
+    font-family: var(--main-font);
+    justify-content: center;
+    text-align: center;
+    color: var(--main-color);
+    text-shadow: 0px 0px 2px var(--shadow-color);
+}
+
+.content {
+    margin-top: 105px;
+}
+
+#pic {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: var(--main-margin);
+    margin-top: var(--main-margin);
+    border: 8px solid var(--main-color);
+    box-shadow: 0px 0px 2px var(--shadow-color);
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: var(--main-margin);
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: var(--main-margin);
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: var(--main-margin);
+}
+
+.tv-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tv-container::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    background-image: none;
+    background-size: cover; /* This will ensure the gif covers the entire area */
+    background-repeat: no-repeat; /* This will prevent the gif from repeating */
+    z-index: -1;
+    transition: background-image 0.3s ease-in-out; /* This will add a smooth transition when changing images */
+}
+
+.tv-container img {
+    display: block;
+    position: relative;
+    width: 800px;
+}
+
+.tv-container:hover::before {
+    background-image: url('assets/kermit.gif');
+    background-size: 100%;
+    background-position: top center;
+}
+
+#gift2:hover::before {
+    background-image: url('assets/michel.gif');
+}
+
+#gift3:hover::before {
+    background-image: url('assets/genius.gif');
+}
+
+#gift4:hover::before {
+    background-image: url('assets/terminator.gif');
+}
+
+#gift5:hover::before {
+    background-image: url('assets/cheers.gif');
+}
+
+body {
+    display: flex;
+    flex-direction: column;  /* stacks content vertically */
+    min-height: 100vh;  /* makes sure body fills the viewport height */
+    margin: 0;
+}
+  
+.content {
+    flex: 1 0 auto;  /* allows this content to grow but not shrink, which pushes the footer down */
+}
+  
+.footer {
+    flex-shrink: 0; /* prevents footer from shrinking */
+    width: 100%;
+    background-color: var(--main-color);
+    color: var(--shadow-color);
+    text-align: center;
+
+}
+  
+#footer-text {
+    color: white;
+    margin: 0px;
+    padding: 24px;
+    text-shadow: 0px 0px 2px var(--shadow-color);
+}

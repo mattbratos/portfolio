@@ -1,0 +1,110 @@
+/* Defining CSS variables for commonly used values */
+:root {
+  --main-font: 'FA Sysfont C', Arial, sans-serif;
+  --main-color: #0f0;
+  --main-bg-color: #000;
+  --main-font-size: 24px;
+}
+
+/* Importing main font */
+@font-face {
+  font-family: 'FA Sysfont C';
+  src: url('sysfont.woff2') format('woff2'),
+       url('sysfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Setting body and html properties */
+body, html {
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+  font-size: var(--main-font-size);
+  font-family: var(--main-font);
+  height: 100%;
+  margin: 0;
+}
+
+/* Container for layout */
+#container, .vertical-container {
+  display: flex;
+  height: 100%;
+}
+
+/* Terminal properties - 3x wider than display */
+#terminal {
+  flex-grow: 3;
+  padding: 20px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  border-right: 1px solid var(--main-color);
+}
+
+/* Display properties */
+#display {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+/* Styling for user input */
+#input {
+  background: transparent;
+  border: none;
+  color: var(--main-color);
+  width: 100%;
+  outline: none;
+  font-family: var(--main-font);
+  font-size: var(--main-font-size);
+  caret-color: var(--main-color);
+}
+
+/* Aligning user input container */
+#user-input {
+  display: flex;
+  align-items: center;
+}
+
+/* Top navigation properties */
+.topnav {
+  background-color: var(--main-bg-color);
+  overflow: hidden;
+  border-bottom: 1px solid var(--main-color);
+  display: flex;
+  justify-content: flex-end;
+  font-family: var(--main-font);
+  font-size: var(--main-font-size);
+}
+
+/* Styling for navigation links */
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: var(--main-font-size);
+}
+
+/* Navigation link hover effects */
+.topnav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Navigation active link styling */
+.topnav a.active {
+  color: var(--main-color);
+  font-weight: bold;
+}
+
+/* Footer properties */
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--main-bg-color);
+  color: var(--main-color);
+  text-align: left;
+  border-top: 1px solid var(--main-color);
+}
