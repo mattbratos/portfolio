@@ -38,8 +38,8 @@ Hey there! 👋 Welcome to my super-cool project portfolio, where code meets cre
 
 
 ### 6. 🎨 NFT Site - The Digital Art Revolution! 🖼️
-- **Live Demo:** [Start Shopping](https://mattbratos.github.io/portfolio/nft-site/)
-- **Repository:** [Mobile Shopping App](https://github.com/mattbratos/portfolio/tree/main/nft-site)
+- **Live Demo:** [View My NFT site](https://mattbratos.github.io/portfolio/nft-site/)
+- **Repository:** [NFT Site](https://github.com/mattbratos/portfolio/tree/main/nft-site)
 - **Toolbox:** HTML, CSS
 - **About:** Learning some more about CSS 
 
