@@ -39,6 +39,33 @@ Hey there! 👋 Welcome to my super-cool project portfolio, where code meets cre
 - **Unlocked Skills:** Concocted creative designs, CSS spellcasting, and epic user fun times!
 - **Story Behind:** This project was a tribute to everyone's favorite ogre, Shrek! I wanted to create a fun, interactive experience to celebrate the character, blending humor with web design creativity.
 
+### 🛍️ Mobile Shopping App - Your Smart Shopping Companion!
+- **Repository:** [Mobile Shopping App](https://github.com/mattbratos/portfolio/tree/main/mobile-shopping-app)
+- **What's in the Cart:** A handy mobile app that simplifies your shopping experience by helping you create and manage your shopping lists effortlessly! 📝🛒
+- **Tech Goodies:** Experience the convenience of mobile app development.
+- **List Master Skills:** Enhanced expertise in mobile UX/UI design, creating user-friendly interfaces, and streamlining the shopping list creation process.
+- **Story Behind:** In the hustle of daily life, who doesn't need a little help with their shopping? That's where this app comes in - it's your personal assistant for creating and managing shopping lists. Simple, efficient, and oh so handy! It's not just an app; it's a shopping revolution in your pocket!
+
+
+---
+
+For more awesome projects and tech insights:
+- [AskTheCode Docs](https://docs.askthecode.ai)
+- [Explore Our GitHub](https://github.com/askthecode/documentation)
+- [Connect with Us on Twitter](https://twitter.com/askthecode_ai)
+
+Remember, you're on the free plan with limited requests. To explore more and expand your possibilities, consider the [pro plans here](https://auth.askthecode.ai/user/operations/proceed). 🚀🌟
+
+---
+
+For more fantastic projects and cool tech insights:
+- [AskTheCode Docs](https://docs.askthecode.ai)
+- [Check out Our GitHub](https://github.com/askthecode/documentation)
+- [Follow Us on Twitter](https://twitter.com/askthecode_ai)
+
+Just a heads up, you're on the free plan with limited requests. To unlock more features and boost your coding arsenal, take a peek at the [pro plans here](https://auth.askthecode.ai/user/operations/proceed). 🚀🌟
+
+
 ## About Me
 This portfolio is like my adventure diary in web development! From the ABCs of HTML/CSS to the cool spells of JavaScript and design, each project is a chapter of growth, fun, and learning. 🌱🎉
 
