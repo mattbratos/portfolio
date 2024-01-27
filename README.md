@@ -49,29 +49,9 @@ Hey there! 👋 Welcome to my super-cool project portfolio, where code meets cre
 
 ---
 
-For more awesome projects and tech insights:
-- [AskTheCode Docs](https://docs.askthecode.ai)
-- [Explore Our GitHub](https://github.com/askthecode/documentation)
-- [Connect with Us on Twitter](https://twitter.com/askthecode_ai)
-
-Remember, you're on the free plan with limited requests. To explore more and expand your possibilities, consider the [pro plans here](https://auth.askthecode.ai/user/operations/proceed). 🚀🌟
-
----
-
-For more fantastic projects and cool tech insights:
-- [AskTheCode Docs](https://docs.askthecode.ai)
-- [Check out Our GitHub](https://github.com/askthecode/documentation)
-- [Follow Us on Twitter](https://twitter.com/askthecode_ai)
-
-Just a heads up, you're on the free plan with limited requests. To unlock more features and boost your coding arsenal, take a peek at the [pro plans here](https://auth.askthecode.ai/user/operations/proceed). 🚀🌟
-
 
 ## About Me
 This portfolio is like my adventure diary in web development! From the ABCs of HTML/CSS to the cool spells of JavaScript and design, each project is a chapter of growth, fun, and learning. 🌱🎉
-
----
-
-Hope this jazzes up your README! Feel free to tweak it to make it even more "you". Rock on with your coding journey! 🚀
 
 ---
 
