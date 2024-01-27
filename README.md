@@ -3,48 +3,38 @@
 Hey there! 👋 Welcome to my super-cool project portfolio, where code meets creativity! Let's dive into the exciting world of my projects and discover the fun skills I've picked up along the way. 🌈
 
 ## Projects
-
 ### 1. 🎵 Web-based MP3 Player - Rock On!
+- **Live Demo:** [Play some tunes!](https://mattbratos.github.io/portfolio/player/)
 - **Repository:** [Player](https://github.com/mattbratos/portfolio/tree/main/player)
-- **What's Cooking:** A groovy web-based MP3 player where users can jam to different song vibes like Hi-Fi, Lo-Fi, Vinyl, and Tape! 🎧
-- **Tech Magic:** HTML, CSS, JavaScript.
-- **Gained Wizardry:** Mastered the arts of web development, audio fun, and crafting cool user interactions!
-- **Story Behind:** Here, I aimed to create a unique experience for music lovers. This project allowed users to listen to the same album in three distinct formats: MP3, Tape Cassette, and Vinyl. It's all about reviving the old-school charm while staying tuned with the digital era! This project get me into WebDev. I didn't know anything about it and made the entire thing with ChatGPT 😂 After having some fun here I decided to learn a bit more 🚀
+- **Toolbox:** HTML, CSS, JS
+- **About:** This project get me into WebDev. I didn't know anything about it and made the entire thing with ChatGPT 😂 After having some fun here I decided to learn a bit more 🚀
 
 ### 2. 💼 Professional CV - The Story of Me!
+- **Live Demo:** [View My CV](https://mattbratos.github.io/portfolio/cv/)
 - **Repository:** [CV](https://github.com/mattbratos/portfolio/tree/main/cv)
-- **Scoop:** A sleek and professional web version of my CV, showcasing my journey and skills.
-- **Toolbox:** HTML, CSS.
-- **Level Up:** Nailed the art of impactful design, making things look good on any screen, and font awesomeness!
-- **Story Behind:** This project was a personal brand showcase. I wanted a CV that was not just a document, but a reflection of my journey in a more interactive and engaging web format. It's where professionalism meets creativity!
+- **Toolbox:** HTML, CSS
+- **About:** First project where I kind of know waht I'm doing.
 
-### 3. 🌌 Jedi Vanilla - Command Line but Fancy
-- **Repository:** [Jedi](https://github.com/mattbratos/portfolio/tree/main/jedi)
-- **The Deal:** A cool project featuring a command-line interface, but make it web-style!
-- **Tech Potions:** HTML, CSS, JavaScript.
-- **Skill Boost:** Leveled up in interactive elements, UI/UX charm, and JavaScript magic!
-- **Story Behind:** Inspired by the classic command line, this project was all about bringing that nostalgia to the web. It's a blend of old-school computing with modern web technology, creating a unique and engaging user experience.
 
-### 4. 😂 MemeFerno - Laugh, Rank, Share!
-- **Repository:** [Membo](https://github.com/mattbratos/portfolio/tree/main/membo)
-- **The Gist:** A meme paradise where you can share, rank, and have a good laugh!
-- **Wizard Tools:** HTML, CSS.
-- **Crafted Talents:** Handling the funnies, laying out the laughs, and style swagger!
-- **Story Behind:** MemeFerno was born out of a love for memes and community engagement. The idea was to create a fun space where people could share and rank memes, making everyone's day a little brighter!
-
-### 5. 🎉 Shrek Birthday Bash - Party with the Ogre!
+### 3. 🎉 Shrek Birthday Bash - Party with the Ogre!
+- **Live Demo:** [Celebrate with Shrek](https://mattbratos.github.io/portfolio/shrek/)
 - **Repository:** [Shrek](https://github.com/mattbratos/portfolio/tree/main/shrek)
-- **Party Hat On:** A quirky web page to celebrate the one and only Shrek's birthday with style and humor!
-- **Creative Kit:** HTML, CSS.
-- **Unlocked Skills:** Concocted creative designs, CSS spellcasting, and epic user fun times!
-- **Story Behind:** This project was a tribute to everyone's favorite ogre, Shrek! I wanted to create a fun, interactive experience to celebrate the character, blending humor with web design creativity.
+- **Toolbox:** HTML, CSS, JS
+- **About:** Second project where I get basics of CSS and JS. 
 
-### 🛍️ Mobile Shopping App - Your Smart Shopping Companion!
+### 4. 🌌 Jedi - Command Line but Fancy
+- **Live Demo:** [Jedi Vanilla](https://mattbratos.github.io/portfolio/jedi/jedi_vanila/)
+- **Repository:** [Jedi](https://github.com/mattbratos/portfolio/tree/main/jedi)
+- **Toolbox:** HTML, CSS, JS, OpenAI API
+- **About:** This is the web-based version of my Python program, 'Jedi', which was my go-to study tool throughout college. Every lecture began with its objectives listed on the first slide. I'd take these objectives, feed them into Jedi, and in return, it would generate a list of 10 potential exam questions, essentially creating a custom mock exam for me. When I was short on study time, I'd skip the traditional studying and instead tackle about 50 of these mock exams. My scores improved progressively. The most astonishing part? Jedi accurately predicted about 95% of the actual exam questions!
+
+
+### 5. 🛍️ Mobile Shopping App - Your Smart Shopping Companion!
+- **Live Demo:** [Start Shopping](https://mattbratos.github.io/portfolio/mobile-shopping-app/)
 - **Repository:** [Mobile Shopping App](https://github.com/mattbratos/portfolio/tree/main/mobile-shopping-app)
-- **What's in the Cart:** A handy mobile app that simplifies your shopping experience by helping you create and manage your shopping lists effortlessly! 📝🛒
-- **Tech Goodies:** Experience the convenience of mobile app development.
-- **List Master Skills:** Enhanced expertise in mobile UX/UI design, creating user-friendly interfaces, and streamlining the shopping list creation process.
-- **Story Behind:** In the hustle of daily life, who doesn't need a little help with their shopping? That's where this app comes in - it's your personal assistant for creating and managing shopping lists. Simple, efficient, and oh so handy! It's not just an app; it's a shopping revolution in your pocket!
+- **Toolbox:** HTML, CSS, JS, Firebase
+- **About:** A mobile app to make and manage your shopping lists easily. A project I was working on on the Scrimba Fronetend Bootcamp. Learned the basics of Firebase.
+
 
 
 ---
@@ -56,4 +46,4 @@ This portfolio is like my adventure diary in web development! From the ABCs of H
 ---
 
 ## Let's Connect!
-If you're interested in hiring me or just want to chat about tech, drop me an email at [Maciej.bratosiewicz@gmail.com](mailto:Maciej.bratosiewicz@gmail.com). Let's make something awesome together! 🚀🤝
+If you're interested in hiring me or just want to chat about tech, drop me an email at [Maciej.bratosiewicz@gmail.com](mailto:Maciej.bratosiewicz@gmail.com) or check out my LinkedIn [Maciej Bratosiewicz](https://www.linkedin.com/in/maciej-bratosiewicz/). Let's make something awesome together! 🚀🤝
