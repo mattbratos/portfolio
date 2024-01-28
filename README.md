@@ -44,7 +44,11 @@ Hey there! 👋 Welcome to my super-cool project portfolio, where code meets cre
 - **About:** Learning some more about CSS 
 
 
-
+### 7. 🚀 Mars Office - The Red Planet Workspace
+- **Live Demo:** [Explore the Martian Office](https://mattbratos.github.io/portfolio/we-work-mars/) 
+- **Repository:** [Mars Office]((https://mattbratos.github.io/portfolio/we-work-mars/)) 
+- **Toolbox:** HTML, CSS
+- **About:** Learned some new CSS and mostly practice 
 
 ---
 

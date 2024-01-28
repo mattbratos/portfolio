@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #3a0061, #000000, #001553);
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding: 25px;
+    gap: 10px
+}
+
+li {
+    cursor: pointer;
+}
+
+.icon {
+    width: 25px;
+}
+
+.align-right {
+    margin-left: auto;
+}
+
+footer {
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.hero{
+    width: 100%;
+}
+
+.hero-img{
+    width: 100%;
+    height: 100%;}
+
+.hero {
+    position: relative;
+}
+.overlay-text {
+    position: absolute;
+    top: 80px;
+    background-color: rgba(0, 0, 0, 0.8); /* You can adjust the background color and opacity as needed */
+    color: white; /* Text color */
+    padding: 20px;
+    text-align: center;
+}
+    
+.hero h1 {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.hero p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.span-hero {
+    background: linear-gradient(45deg, #9900ff, #ff00d9, #00ffd5);
+    -webkit-background-clip: text; /* This is for WebKit-based browsers to clip the gradient to the text */
+    background-clip: text;
+    color: transparent; /* Make the text transparent so the gradient shows through */
+}
+
+
+.card {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+/* Your existing styles for .hero and .card classes */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between cards as needed */
+    padding: 20px;
+    background-color: #1f1f1f;
+}
+
+.card {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    max-width: 800px; /* Adjust the maximum width of the cards as needed */
+}
+
+.main-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
