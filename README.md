@@ -1,3 +1,8 @@
+## TL;DR
+
+Starting my journey into web development, projects 1-20 were foundational, focusing on basic coding skills and understanding web technologies. As my journey progressed, projects 20-25 mark the evolution of my expertise, showcasing more complex and sophisticated applications. These projects are a testament to my growth as a developer, highlighting my ability to tackle challenging problems and implement advanced web development techniques.
+
+
 # 🚀 Matt Bratos' Awesome Portfolio 🌟
 
 Hey there! 👋 Welcome to my super-cool project portfolio, where code meets creativity! Let's dive into the exciting world of my projects and discover the fun skills I've picked up along the way. 🌈
