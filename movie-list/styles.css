@@ -1,0 +1,100 @@
+/* Dark mode styles */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
+
+
+/* Typography */
+body{
+    font-family: 'Roboto Mono', monospace;
+    color: #ffffff;
+}
+
+.logo{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav-bar-item{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#searchInput{
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+#searchButton{
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+body {
+    background-color: #121212;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+
+  }
+  
+  .navbar .logo, .navbar nav a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .search-container {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .search-container input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    background-color: #2c2c2c;
+    border: none;
+    color: white;
+  }
+  
+  .search-container input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4a4a4a;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .search-container input[type="submit"]:hover {
+    background-color: #616161;
+  }
+
+  
+
+  #results {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 100px;
+  }  
+
+  #contentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }

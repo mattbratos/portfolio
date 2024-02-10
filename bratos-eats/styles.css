@@ -1,0 +1,189 @@
+body{
+    background-color: black;
+}
+
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 0px;
+    font-family: 'Smythe', system-ui;
+    background-color: white;
+
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 32px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+  }
+  
+  .image-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  
+  .menu-container {
+    padding: 20px;
+  }
+  
+  .menu-item-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .menu-icon {
+    font-size: 60px; /* Emoji size */
+  }
+
+  .dish-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+    align-items: flex-start
+  }
+  
+  
+.dish-title{
+    color: #000;
+    font-family: Smythe;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px; /* 60% */
+}
+
+.dish-discription{
+    color: #8B8B8B;
+    font-family: Smythe;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.price{
+    color: #000;
+    font-family: Smythe;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+}
+
+.add-to-cart{
+    font-size: 40px;
+    color: #000;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+
+.order-container {
+    padding: 20px;
+    background-color: #fff; /* Assuming a light theme similar to the rest of the app */
+    border-top: 2px solid #eaeaea; /* Adds a subtle separation from the menu items */
+  }
+  
+  .order-list {
+    list-style-type: none; /* Removes the default bullet points */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .order-list li {
+    padding: 10px 0; /* Adds some spacing between order items */
+    border-bottom: 1px solid #eaeaea; /* Each item is visually separated */
+    color: #000; /* Text color for consistency */
+    font-family: 'Smythe', system-ui; /* Matches your theme */
+  }
+  
+  .total-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adds some space above the total */
+  }
+  
+  .total {
+    font-size: 24px; /* Larger font for the total price */
+    font-weight: bold; /* Makes the total price stand out */
+  }
+  
+  .place-order {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px; /* Space above the button */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .place-order:hover {
+    background-color: #444; /* Darker shade on hover for feedback */
+  }
+  
+  .order-container{
+    display: none;
+  }
+
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  .modal-content {
+    width: 400px; 
+    display: flex;
+    flex-direction: column;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    background-color: #fefefe;
+
+  }
+  
+  .close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close-button:hover,
+  .close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
