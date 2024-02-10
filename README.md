@@ -51,11 +51,62 @@ Hey there! 👋 Welcome to my super-cool project portfolio, where code meets cre
 - **About:** Learned some new CSS and mostly practice 
 
 
+### 8. 📱 CSS Responsive Design
+- **Live Demo:** [CSS Responsive Design](https://mattbratos.github.io/portfolio/css-responsive-design/)
+- **Repository:** [CSS Responsive Design](https://github.com/mattbratos/portfolio/tree/main/css-responsive-design)
+- **Toolbox:** HTML, CSS
+- **About:** Intro to responsive design and media queries.
 
-### 8. 🍔 Bratos Eats 
+
+### 9. 🍔 Bratos Eats
+- **Live Demo:** [Bratos Eats](https://mattbratos.github.io/portfolio/bratos-eats/)
+- **Repository:** [Bratos Eats](https://github.com/mattbratos/portfolio/tree/main/bratos-eats)
+- **Toolbox:** HTML, CSS, JS
+- **About:** Some more practice with JS and CSS
+
+
+### 10. 📸 Instagram Clone XD
+- **Live Demo:** [Instagram Clone XD](https://mattbratos.github.io/portfolio/instagram-clone-xd/)
+- **Repository:** [Instagram Clone XD](https://github.com/mattbratos/portfolio/tree/main/instagram-clone-xd)
+- **Toolbox:** HTML, CSS, JS
+- **About:** Very unsuccesful attempt to clone Instagram 😂
+
+
+### 11. 🤖 Board Bot
+- **Live Demo:** [Board Bot Demo](https://mattbratos.github.io/portfolio/board-bot/)
+- **Repository:** [Board Bot](https://github.com/mattbratos/portfolio/tree/main/board-bot)
+- **Toolbox:** HTML, CSS, JS
+- **About:** Intro to APIs and fetch requests. 
+
+
+### 12. 🎬 Movie List
+- **Live Demo:** [Movie List](https://mattbratos.github.io/portfolio/movie-list/)
+- **Repository:** [Movie List](https://github.com/mattbratos/portfolio/tree/main/movie-list)
+- **Toolbox:** HTML, CSS, JS
+- **About:** Some more API fun. 
+
+
+### 13. 🌐 React Intro
+- **Live Demo:** [React Intro](https://mattbratos.github.io/portfolio/react-intro/)
+- **Repository:** [React Intro](https://github.com/mattbratos/portfolio/tree/main/react-intro)
+- **Toolbox:** React, JSX, CSS
+- **About:** Very first steps with React.
+
+
+### 14. 🏡 Airbnb Experiences
+- **Live Demo:** [Experience Airbnb](https://mattbratos.github.io/portfolio/airbnb-experiences/)
+- **Repository:** [Airbnb Experiences](https://github.com/mattbratos/portfolio/tree/main/airbnb-expriences)
+- **Toolbox:** HTML, CSS, JS
+- **About:** Moderately succesful attempt to clone Airbnb Exprince, mainly practice React and intro to Components and JSX.
+
+
+
+
 
 ## About Me
 This portfolio is like my adventure diary in web development! From the ABCs of HTML/CSS to the cool spells of JavaScript and design, each project is a chapter of growth, fun, and learning. 🌱🎉
+
+
 
 ---
 
