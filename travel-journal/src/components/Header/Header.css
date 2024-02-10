@@ -1,0 +1,22 @@
+.header {
+    background-color: #000000;
+    padding: 0px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.globe-icon {
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+
+.header h1 {
+    color: #ffffff;
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+
