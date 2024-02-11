@@ -4,7 +4,6 @@
     text-align: center; /* Center-align the text */
     padding: 20px 0; /* Padding above and below the text */
     position: absolute; /* Stick to the bottom */
-    bottom: 0;
     width: 100%; /* Full width */
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a shadow to the top of the footer */
   }

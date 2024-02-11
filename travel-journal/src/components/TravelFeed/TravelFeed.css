@@ -1,51 +1,84 @@
 .travel-feed {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
   }
-
   
   .travel-entry {
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
     border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
   }
   
-  .travel-entry:hover {
-    transform: translateY(-5px);
+  .travel-entry h2 {
+    margin-top: 0;
+    font-size: 4rem;
+    margin: 0px;
   }
   
-  .entry-image {
+  .travel-entry img {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: auto;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
-  
-  .entry-details {
-    padding: 15px;
+
+  .entry-con{
+    padding: 20px;
+    background: black;
+    border-radius: 8px;
   }
-  
-  .entry-title {
-    margin: 0;
-    font-size: 1.5em;
+
+
+  .date{
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 0px;
+    
   }
-  
-  .entry-date {
-    font-style: italic;
-    color: #666;
+
+
+  .description{
+    margin: 0px;
+    padding-top: 1rem;
+    line-height: 1.5;
+    font-size: 1.25rem;
   }
-  
-  .entry-description {
-    margin-top: 10px;
-    font-size: 1em;
+
+  .location-con{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    color: #fff;
+    margin: 0px;
   }
-  
-  .entry-link {
-    display: inline-block;
-    margin-top: 15px;
-    color: #007bff;
-    text-decoration: none;
+
+
+  .locationDotIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-bottom: 5px;
   }
-  
+
+
+  .country{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0px;
+    text-transform: uppercase;
+  }
+
+  .viewOnGoogleMaps{
+    font-size: 1.125rem;
+    font-weight: 300;
+    margin: 0px;
+    margin-left: 10px;
+    color: #ffffff;
+  }
+ 
+.title{
+    padding-bottom: 20px;
+}
