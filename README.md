@@ -89,15 +89,21 @@ Hey there! 👋 Welcome to my super-cool project portfolio, where code meets cre
 ### 13. 🌐 React Intro
 - **Live Demo:** [React Intro](https://mattbratos.github.io/portfolio/react-intro/)
 - **Repository:** [React Intro](https://github.com/mattbratos/portfolio/tree/main/react-intro)
-- **Toolbox:** React, JSX, CSS
+- **Toolbox:** React, JSX, CSS,
 - **About:** Very first steps with React.
 
 
 ### 14. 🏡 Airbnb Experiences
 - **Live Demo:** [Experience Airbnb](https://mattbratos.github.io/portfolio/airbnb-experiences/)
 - **Repository:** [Airbnb Experiences](https://github.com/mattbratos/portfolio/tree/main/airbnb-expriences)
-- **Toolbox:** HTML, CSS, JS
+- **Toolbox:** HTML, CSS, JS, React
 - **About:** Moderately succesful attempt to clone Airbnb Exprince, mainly practice React and intro to Components and JSX.
+
+### 15. 🌍 Travel Journal
+- **Live Demo:** [Explore Travel Journal](https://mattbratos.github.io/portfolio/travel-journal/)
+- **Repository:** [Travel Journal](https://github.com/mattbratos/portfolio/tree/main/travel-journal)
+- **Toolbox:** React, JSX, CSS
+- **About:** Another solo project from the Scrimba Frontend Bootcamp. Intro to React Components and dynamic rendering.
 
 
 
